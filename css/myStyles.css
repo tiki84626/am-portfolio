@@ -2,13 +2,47 @@ body {
   background-color: #7eb1b7;
 }
 
-.glyphicon-tree-deciduous {
-  font-size: 4em;
-  color: black;
-  padding-top: 15px;
-}
-
 .text-body {
   padding-top: 140px;
   background-color: #cbdfe2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-family: fantasy;
+}
+
+.my-pic {
+  border: solid black;
+  float: right;
+  margin-right: 10px;
+}
+
+.logo {
+  float: left;
+}
+
+#icon {
+  width: 70px;
+  height: 70px;
+}
+
+.text-bx {
+  border: 2px solid black;
+  padding: 4px;
+  background-color: #cbdfe2;
+  max-width: 700px;
+}
+
+.intro p {
+
+}
+
+.intro p ul {
+
+}
+
+.aboutme {
+  padding-top: 100px;
 }
