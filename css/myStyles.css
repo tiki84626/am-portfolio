@@ -20,6 +20,7 @@ h3 {
 h4 {
   font-weight: bold;
   font-style: italic;
+  font-variant: small-caps;
 }
 
 .glyphicon-chevron-down {
@@ -53,6 +54,10 @@ h4 {
   padding-top: 50px;
 }
 
+.intro p {
+  max-width: 1000px;
+}
+
 .my-list li {
   font-style: italic;
   font-weight: bold;
@@ -62,8 +67,15 @@ h4 {
   padding-top: 100px;
 }
 
-.projects p {
-  max-width: 1000px;
+.row-centered {
+  text-align: center;
+}
+
+.col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: -4px;
 }
 
 
@@ -93,4 +105,11 @@ h4 {
 
 #projects-links {
   padding-top: 40px;
+  text-align: center;
+}
+
+#proj {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: #e0ebeb;
 }
