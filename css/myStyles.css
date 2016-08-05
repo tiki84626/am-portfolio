@@ -2,30 +2,35 @@ body {
   background-color: #7eb1b7;
 }
 
+h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: fantasy;
+  text-shadow: 3px 3px 1px #878787;
+}
+
+h2 {
+  font-variant: small-caps;
+}
+
+h3 {
+  font-variant: small-caps;
+}
+
 .text-body {
   padding-top: 140px;
   background-color: #cbdfe2;
-}
-
-h1 {
-  text-align: center;
-  font-size: 4em;
-  font-family: fantasy;
 }
 
 .my-pic {
   border: solid black;
   float: right;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .logo {
   float: left;
-}
-
-#icon {
-  width: 70px;
-  height: 70px;
 }
 
 .text-bx {
@@ -35,14 +40,31 @@ h1 {
   max-width: 700px;
 }
 
-.intro p {
-
+.intro {
+  padding-top: 50px;
 }
 
-.intro p ul {
-
+.my-list li {
+  font-style: italic;
+  font-weight: bold;
 }
 
 .aboutme {
   padding-top: 100px;
+}
+
+#apm {
+  padding-bottom: 20px;
+}
+
+#me {
+  padding-left: 200px;
+  padding-top: 30px;
+  font-family: cursive;
+  font-size: 4em;
+}
+
+#icon {
+  width: 150px;
+  height: 150px;
 }
