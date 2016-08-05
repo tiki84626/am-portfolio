@@ -17,6 +17,15 @@ h3 {
   font-variant: small-caps;
 }
 
+h4 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.glyphicon-chevron-down {
+  color: #7eb1b7;
+}
+
 .text-body {
   padding-top: 140px;
   background-color: #cbdfe2;
@@ -53,6 +62,11 @@ h3 {
   padding-top: 100px;
 }
 
+.projects p {
+  max-width: 1000px;
+}
+
+
 #apm {
   padding-bottom: 20px;
 }
@@ -67,4 +81,16 @@ h3 {
 #icon {
   width: 150px;
   height: 150px;
+}
+
+#divider {
+  width: 100%;
+}
+
+#miGitHub {
+  padding-top: 60px;
+}
+
+#projects-links {
+  padding-top: 40px;
 }
